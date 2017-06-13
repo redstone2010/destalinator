@@ -1,5 +1,5 @@
 FROM python:3.6
-WORKDIR /destalinator
+WORKDIR /
 ADD build-requirements.txt .
 RUN pip install -r build-requirements.txt
 ADD requirements.txt .
