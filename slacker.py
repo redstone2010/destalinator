@@ -6,6 +6,8 @@ import time
 
 import requests
 
+import json
+
 
 class Slacker(object):
 
