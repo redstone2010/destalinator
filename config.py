@@ -4,6 +4,8 @@ import os
 import warnings
 import yaml
 
+import json
+
 
 class Config(object):
     config_fname = "configuration.yaml"
