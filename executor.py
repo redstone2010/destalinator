@@ -9,6 +9,8 @@ import slackbot
 import slacker
 import utils
 
+import json
+
 
 class Executor(object):
 
