@@ -6,6 +6,8 @@ import announcer
 import flagger
 import os
 
+import json
+
 
 # When testing changes, set the "TEST_SCHEDULE" envvar to run more often
 if os.getenv("TEST_SCHEDULE"):
