@@ -45,6 +45,9 @@ ignore_channels:
 # Regular expression patterns for additional channels to ignore during archiving
 ignore_channel_patterns:
   - ^corp-
+  - ^office-
+  - ^team-
+  - ^project-
 
 # Users to ignore when considering if a channel is stale
 ignore_users:
