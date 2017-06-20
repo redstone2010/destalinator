@@ -24,7 +24,7 @@ earliest_archive_date_env_varname: EARLIEST_ARCHIVE_DATE
 warn_threshold: 30
 
 # Days of silence before we auto-archive a channel
-archive_threshold: 60
+archive_threshold: 37
 
 # Where should we post "general" announcement messages?
 general_message_channel: "corp-slack-community"
