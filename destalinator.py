@@ -262,7 +262,7 @@ class Destalinator(object):
             being = "is"
             there = "it"
         message = "Hey, heads up -- the following {} {} stale and will be "
-        message += "archived if no one participates in {} over the next 30 days: "
+        message += "archived if no one participates in {} over the next 7 days: "
         message += ", ".join(["#" + x for x in stale_channels])
         message = message.format(channel, being, there)
         if self.destalinator_activated:
