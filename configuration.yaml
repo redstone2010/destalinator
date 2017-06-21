@@ -33,7 +33,7 @@ general_message_channel: "corp-slack-community"
 announce_channel: "corp-newchannels"
 
 # Where do we send control messages?
-control_channel: "test"
+control_channel: "corp-digest-config"
 
 # Where to send destalinator debug logs
 log_channel: "bot-destalinator-logs"
